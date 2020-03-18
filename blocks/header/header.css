@@ -1,0 +1,31 @@
+.header {
+    max-width: 1184px;
+    max-height: 52px;
+    margin: 30px 128px 0 128px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: flex-end;
+}
+
+
+.header__menu-item {
+    width: 30px;
+    height: 23px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+}
+
+.logo {
+    background-image: url(/images/__logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 176.58px;
+    height: 52px;
+}
