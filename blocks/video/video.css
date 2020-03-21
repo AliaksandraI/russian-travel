@@ -29,7 +29,7 @@
 }
 
 .video__container {
-    max-width: 1184px;
+    width: 1184px;
     height: 323px;
     margin: 72px 0 0;
     display: grid;
@@ -37,13 +37,8 @@
     gap: 18px;
 }
 
-.video__link {
-    width: 583px;
-    height: 323px;
-}
-
 .video__picture{
-    width: 583px;
+    max-width: 583px;
     height: 323px;
     object-fit: cover;
 }  
