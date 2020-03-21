@@ -1,0 +1,20 @@
+.lead {
+    max-width: 985px;
+    max-height: 950px;
+    margin:48px 16% 0;
+}
+
+.content__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 6rem;
+    line-height: 5.8125rem;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 0 7% 0;
+}
+
+.content__subtitle {
+
+}

@@ -8,6 +8,13 @@
 @import url(./blocks/places/places.css);
 @import url(./blocks/video/video.css);
 
+
+@font-face {
+    src: url(/Inter-3.12/Inter/Inter-Black.otf);
+    font-family: 'Inter'; 
+}
+
+
 .check {
     border: 3px solid red;
 }
@@ -19,4 +26,14 @@
 
 ul {
     list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    opacity: 0.3;
+    transition: opacity 1s linear 0.5s;
+    text-decoration: underline;
 }
