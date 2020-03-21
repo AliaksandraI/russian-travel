@@ -1,36 +1,14 @@
-@font-face {
-    src: url(../../Inter-3.12/Inter/Inter-Regular.otf);
-    font-family: 'Inter'; 
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-@font-face {
-    src: url(../../Inter-3.12/Inter/Inter-Bold.otf);
-    font-family: 'Inter'; 
-    font-weight: bold;
-    font-style: normal;
-}
-
-
-@font-face {
-    src: url(../../Inter-3.12/Inter/Inter-ExtraBold.otf);
-    font-family: 'Inter'; 
-    font-weight: 900;
-    font-style: normal;
-}
 
 .intro {
     max-width: 683px;
-    height: 371px;
+    min-height: 376px;
     margin: 80px 37% 0 16%;
 }
 
 
 .intro__title {
     margin: 0;
-    max-width: 683px;
+    width: 683px;
     height: 52px;
     font-family: Inter;
     font-style: normal;
@@ -40,9 +18,9 @@
 }
 
 .intro__content-row {
-    margin: 48px 0 0;
+    margin: 53px 0 0;
     max-width: 683px;
-    height: 154px;
+    min-height: 154px; /*154px - в макете для 1440, но 7 строк * line-heihgt= 168px */
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -63,4 +41,8 @@
     font-weight: bold;
     font-size: 13px;
     line-height: 20px;
+}
+
+.intro__text-item-normal {
+    font-weight: normal;
 }

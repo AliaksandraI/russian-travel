@@ -9,18 +9,29 @@
 @import url(./blocks/video/video.css);
 
 
+
 @font-face {
-    src: url(./Inter-3.12/Inter/Inter-Regular.otf);
+    src: url(../../Inter-3.12/Inter/Inter-Regular.otf);
     font-family: 'Inter'; 
     font-weight: normal;
+    font-style: normal;
 }
+
 
 @font-face {
-    src: url(./Inter-3.12/Inter/Inter-ExtraBold.otf);
+    src: url(../../Inter-3.12/Inter/Inter-Bold.otf);
     font-family: 'Inter'; 
-    font-weight: 900;
+    font-weight: bold;
+    font-style: normal;
 }
 
+
+@font-face {
+    src: url(../../Inter-3.12/Inter/Inter-ExtraBold.otf);
+    font-family: 'Inter'; 
+    font-weight: 900;
+    font-style: normal;
+}
 
 .check {
     border: 3px solid red;
