@@ -1,5 +1,5 @@
 .lead {
-    max-width: 68%;
+    max-width: 985px;
     max-height: 950px;
     margin:48px 16% 0;
 }
@@ -34,21 +34,33 @@
 }
 
 .content__image {
-    height: 38%;
-    width: 68%;
+    width: 100%;
     object-fit: cover;
     object-position: 0 0;
     z-index: 0;
 }
 
-.content__caption {
-    width: 65%;
-    height: 16%;
+.content__map {
+    width: 937.08px;
+    height: 225.68px;
     margin: 0 auto;
     object-fit: cover;
-    object-position: 0 0;
     position: absolute;
-    right: 50%;
-    bottom: 14%;
+    top: 126.88px;
+    bottom: 201.57px;
+    right: 23.65px;
+    left: 23.27px;
     z-index: 1;
+}
+
+.lead__caption {
+    width: 636px;
+    height: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
 }
