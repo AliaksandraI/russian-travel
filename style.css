@@ -10,8 +10,15 @@
 
 
 @font-face {
-    src: url(/Inter-3.12/Inter/Inter-Black.otf);
+    src: url(./Inter-3.12/Inter/Inter-Regular.otf);
     font-family: 'Inter'; 
+    font-weight: normal;
+}
+
+@font-face {
+    src: url(./Inter-3.12/Inter/Inter-ExtraBold.otf);
+    font-family: 'Inter'; 
+    font-weight: 900;
 }
 
 

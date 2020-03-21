@@ -1,0 +1,66 @@
+@font-face {
+    src: url(../../Inter-3.12/Inter/Inter-Regular.otf);
+    font-family: 'Inter'; 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    src: url(../../Inter-3.12/Inter/Inter-Bold.otf);
+    font-family: 'Inter'; 
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    src: url(../../Inter-3.12/Inter/Inter-ExtraBold.otf);
+    font-family: 'Inter'; 
+    font-weight: 900;
+    font-style: normal;
+}
+
+.intro {
+    max-width: 683px;
+    height: 371px;
+    margin: 80px 37% 0 16%;
+}
+
+
+.intro__title {
+    margin: 0;
+    max-width: 683px;
+    height: 52px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 59px;
+}
+
+.intro__content-row {
+    margin: 48px 0 0;
+    max-width: 683px;
+    height: 154px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.intro__text {
+    margin: 24px 300px 0 0;
+    max-width: 383px;
+    height: 93px;
+    padding: 0;
+}
+
+.intro__text-item {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+}

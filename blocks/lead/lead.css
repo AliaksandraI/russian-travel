@@ -1,5 +1,5 @@
 .lead {
-    max-width: 985px;
+    max-width: 68%;
     max-height: 950px;
     margin:48px 16% 0;
 }
@@ -9,12 +9,46 @@
     font-style: normal;
     font-weight: 900;
     font-size: 6rem;
+    width: content;
     line-height: 5.8125rem;
-    text-align: right;
-    color: #FFFFFF;
-    margin: 0 7% 0;
+    text-align: center;
+    margin: 0 7% 0 7%;
 }
 
 .content__subtitle {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.875rem;
+    min-width: content;
+    line-height: 2.25rem;
+    text-align: center;
+    margin: 48px 14% 0;
+}
 
+
+.image-container {
+    width: 100%;
+    margin: 78px 0 0;
+    position: relative;
+}
+
+.content__image {
+    height: 38%;
+    width: 68%;
+    object-fit: cover;
+    object-position: 0 0;
+    z-index: 0;
+}
+
+.content__caption {
+    width: 65%;
+    height: 16%;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: 0 0;
+    position: absolute;
+    right: 50%;
+    bottom: 14%;
+    z-index: 1;
 }
