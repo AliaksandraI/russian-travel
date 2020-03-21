@@ -1,13 +1,23 @@
 .places {
     max-width: 984px;
-    max-height: 653px;
-    margin: 0 16% 72px;
+    max-height: 3362px;
+    margin: 0 16% 0;
 }
 
 .place__item {
+    max-width: 984px;
+    margin: 0 0 72px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.place__item:nth-of-type(1), .place__item:nth-of-type(4)  {
+    max-height: 653px;
+}
+
+.place__item:nth-of-type(2), .place__item:nth-of-type(3), .place__item:nth-of-type(5)  {
+    max-height: 589px;
 }
 
 .place__item-row {
@@ -15,8 +25,8 @@
 }
 
 .place__title {
-    max-width: 457px;
-    height: 133px;
+    width: 457px;
+    height: auto;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -33,6 +43,11 @@
     flex-direction: column;
     margin: 87px 0 60px 0;
 }
+
+.place__website-small {
+    margin: 23px 0 60px 0;
+}
+
 
 .place__url-heading {
     max-width: 484px;
