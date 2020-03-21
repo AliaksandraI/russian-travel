@@ -1,0 +1,36 @@
+.cover {
+    max-width: 1184px;
+    height: 594px;
+    margin: 102px auto 0;
+    background-image: url(../../images/Imagecover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.cover__title {
+    max-width: 1094.27px;
+    height: 69px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    margin: 274px auto 0;
+}
+
+
+.cover__subtitle {
+    width: 382px;
+    height: 69px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    margin: 134px auto 48px;
+}
+
+
