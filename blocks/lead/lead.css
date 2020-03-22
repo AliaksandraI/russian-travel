@@ -1,29 +1,29 @@
 .lead {
     max-width: 985px;
-    max-height: 950px;
-    margin:48px 16% 0;
+    height: 950px;
+    margin:48px auto 0;
 }
 
 .content__title {
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
-    font-size: 6rem;
-    width: content;
-    line-height: 5.8125rem;
+    font-size: 96px;
+    max-width: 782px;
+    line-height: 93px;
     text-align: center;
-    margin: 0 7% 0 7%;
+    margin: 0 auto;
 }
 
 .content__subtitle {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.875rem;
-    min-width: content;
-    line-height: 2.25rem;
+    font-size: 30px;
+    max-width: 583px;
+    line-height: 36px;
     text-align: center;
-    margin: 48px 14% 0;
+    margin: 48px auto 0;
 }
 
 
@@ -41,7 +41,7 @@
 }
 
 .content__map {
-    width: 937.08px;
+    max-width: 937.08px;
     height: 225.68px;
     margin: 0 auto;
     object-fit: cover;
@@ -54,7 +54,7 @@
 }
 
 .lead__caption {
-    width: 636px;
+    max-width: 636px;
     height: 10px;
     font-family: Inter;
     font-style: normal;

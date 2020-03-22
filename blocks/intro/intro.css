@@ -2,14 +2,14 @@
 .intro {
     max-width: 683px;
     min-height: 376px;
-    margin: 80px 37% 0 16%;
+    margin: 80px 529px 0 228px;
 }
 
 
 .intro__title {
     margin: 0;
-    width: 683px;
-    height: 52px;
+    max-width: 683px;
+    min-height: 52px;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;

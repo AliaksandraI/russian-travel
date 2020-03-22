@@ -1,7 +1,7 @@
 .places {
     max-width: 984px;
-    max-height: 3362px;
-    margin: 0 16% 0;
+    height: 3362px;
+    margin: 0 auto 0;
 }
 
 .place__item {
