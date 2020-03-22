@@ -3,6 +3,7 @@
     min-height: 594px;
     margin: 0 auto;
     background-image: url(../../images/Imagecover.png);
+    opacity: 0.8;
     background-size: cover;
     background-repeat: no-repeat;
     background-origin: border-box;
@@ -44,24 +45,28 @@
 
 @media screen and (max-width: 1280px) {
     .cover {
-        min-height: 562px;
+        height: 594px;
     }
 
     .cover__title {
-        max-width: 965px;
-        min-height: 65px;
-        top: 211px;
+        max-width: 1094px;
+        height: 69px;
+        top: 274px;
     }
 
     .cover__subtitle {
-        top: 389px; 
+        top: 408px; 
     }
 }
 
 @media screen and (max-width: 1024px) {
+    .cover {
+        max-width: 1024px;
+        min-height: 562px;
+    }
     .cover__title {
         max-width: 500px;
-        min-height: 500px;
+        top: 211px;
     }
     
 }
