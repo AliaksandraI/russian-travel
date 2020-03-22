@@ -48,8 +48,28 @@
     align-items: flex-end;
 }
 
-@media screen  and (min-width: 1024px) and (max-width: 1279px) {
+@media screen  and (max-width: 1024px) {
     .footer {
         max-width: 929px;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: 722px;
+        height: 28px;
+        padding-top: 102px;
+        padding-bottom: 24px;
+    }
+    .footer__column-item {
+        min-width: 50px;
+        height: 28px;
+        font-size: 16px;
+    }
+    
+    .footer__author {
+        max-width: 220px;  /* не 183px как в макете, т.к. длинное имя*/
+        height: 21px;
+    }
+    
 }

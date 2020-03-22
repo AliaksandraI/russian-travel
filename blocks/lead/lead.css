@@ -41,7 +41,7 @@
 }
 
 .content__map {
-    max-width: 937.08px;
+    max-width: 95%;
     min-height: 225.68px;
     margin: 0 auto;
     object-fit: contain;
@@ -66,13 +66,33 @@
     margin:0;
 }
 
-@media screen  and (min-width: 768px) and (max-width: 1024px)  {
+@media screen and (max-width: 1024px)  {
     .lead {
         max-width: 928px;
+        min-height: 821px;
+    }
+} 
+
+@media screen and (max-width: 768px)  {
+    .lead {
+        max-width: 768px;
+        min-height: 412px;
     }
 
     .content__map {
-        max-width: 883.75px;
+        top: 96.17px;
+        bottom: 152.78px;
+        right: 18.16px;
+        left: 18.46px;
+    }
+    .content__title {
+        max-width: 720px;
     }
 
+    .content__subtitle {
+        max-width: 720px;
+    }
+    .lead__caption {
+        margin:16px 0 0 24px;
+    }
 } 

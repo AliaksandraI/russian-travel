@@ -47,7 +47,7 @@
     font-weight: normal;
 }
 
-@media screen  and (min-width: 1280px) and (max-width: 1439px)  {
+@media screen and (max-width: 1280px)  {
     .intro {
         max-width: 683px;
         min-height: 371px;
@@ -55,10 +55,18 @@
     }
 } 
 
-@media screen  and (min-width: 1024px) and (max-width: 1279px)  {
+@media screen  and (max-width: 1024px)  {
     .intro {
         max-width: 692px;
         min-height: 377px;
         margin: 80px 284px 0 48px;
+    }
+} 
+
+@media screen and (max-width: 768px)  {
+    .intro {
+        max-width: 720px;
+        min-height: 384px;
+        margin: 80px 24px 0 24px;
     }
 } 

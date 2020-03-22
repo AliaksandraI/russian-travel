@@ -14,12 +14,22 @@
     object-fit: cover;
 }
 
-@media screen  and (min-width: 768px) and (max-width: 1024px)  {
+@media screen and (max-width: 1024px)  {
     .photo-grid {
         max-width: 928px;
         min-height: 842px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
         gap: 14px;
+    }
+}
+@media screen and (max-width: 768px)  {
+    .photo-grid {
+        max-width: 720px;
+        min-height: 1485px;
+        margin: 97px auto 102px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 16px;
     }
 }

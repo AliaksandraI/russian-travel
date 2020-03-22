@@ -71,3 +71,10 @@ ul {
     transition: opacity 1s linear 0.5s;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 1023px)  {
+    .page {
+        max-width: 1023px;
+    }
+
+}

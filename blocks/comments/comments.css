@@ -73,3 +73,34 @@
         height: 650px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .comments {
+        max-width: 660px;
+        height: 106px;
+    } 
+
+    .comments__content-title {
+        max-width: 660px;
+        height: 103px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+
+    .comments__content-subtitle {
+        max-width: 640px;
+        height: 58px;
+        font-size: 24px;
+        line-height: 35px;
+        margin: 24px auto 0;
+    }
+    .comments__container{
+        max-width: 382px;
+        height: 806px;
+        display:  grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 48px;
+    }
+    
+}
