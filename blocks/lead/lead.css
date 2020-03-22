@@ -1,6 +1,6 @@
 .lead {
     max-width: 985px;
-    height: 950px;
+    min-height: 950px;
     margin:48px auto 0;
 }
 
@@ -63,4 +63,5 @@
     line-height: 12px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
+    margin:0;
 }
