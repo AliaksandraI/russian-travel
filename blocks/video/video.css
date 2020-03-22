@@ -1,6 +1,6 @@
 .video {
     max-width: 1184px;
-    height: 648px;
+    min-height: 648px;
     margin:104px auto 0;
 }
 
@@ -73,11 +73,12 @@
 @media screen and (max-width: 768px) {
     .video {
         max-width: 720px;
-        height: 442px;
+        min-height: 442px;
     }
 
     .video__content-title {
         max-width: 720px;
+        min-height: 104px;
         font-size: 42px;
         line-height: 46px;
     }

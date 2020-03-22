@@ -1,6 +1,6 @@
 .comments {
     max-width: 1184px;
-    height: 618px;
+    min-height: 618px;
     margin:100px auto 102px;
 }
 
@@ -70,14 +70,14 @@
 @media screen and (max-width: 1280px) {
     .comments {
         max-width: 928px;
-        height: 650px;
+        min-height: 650px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .comments__content-title {
         max-width: 800px;
-        height: 133px;
+        min-height: 133px;
         line-height: 65px;
     }
 }
@@ -85,7 +85,7 @@
 @media screen and (max-width: 768px) {
     .comments {
         max-width: 660px;
-        height: 106px;
+        min-height: 1063px;
     } 
 
     .comments__content-title {
@@ -107,8 +107,31 @@
         height: 806px;
         display:  grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: 200px 290px 220px;
         gap: 48px;
+        margin: 72px auto 0;
+    }
+
+    .comment__container-text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .comment__quote {
+        order: 2;
+        text-align: justify;
+    }
+    .comment__author {
+        order: 1;
+        text-align: center;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+
+    .comments__image {
+        display: block;
+        margin: 0 auto;
     }
     
 }

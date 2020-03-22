@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 1280px) {
     .cover {
-        height: 594px;
+        min-height: 594px;
     }
 
     .cover__title {
@@ -73,7 +73,7 @@
 @media screen  and (max-width: 768px) {
     .cover {
         max-width: 768px;
-        height: 500px;
+        min-height: 500px;
     }
 
     .cover__title {
@@ -83,7 +83,7 @@
     }
 
     .cover__subtitle {
-        top: 240px; 
+        top: 220px; 
     }
     
 }
