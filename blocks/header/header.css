@@ -35,7 +35,7 @@
     background-image: url(../../images/__logo.png);
     background-repeat: no-repeat;
     background-size: cover;
-   width: 176.58px;
+    width: 176.58px;
     height: 52px;
 }
 
@@ -49,6 +49,23 @@
 @media screen  and (max-width: 768px)  {
     .header {
         max-width: 720px;
+    }
+}
+
+@media screen  and (max-width: 375px)  {
+    .header {
+        max-width: 343px;
+        padding-top: 16px;
+    }
+    .logo {
+        width: 142px;
+        height: 42px;
+    }
+    .header__menu-item {
+        max-width: 30px;
+        line-height: 17px;
+        font-size: 18px;
+        margin-right: 16px;
     }
 
 }

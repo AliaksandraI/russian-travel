@@ -96,3 +96,38 @@
         margin:16px 0 0 24px;
     }
 } 
+
+@media screen and (max-width: 375px)  {
+    .lead {
+        max-width: 375px;
+        min-height: 412px;
+    }
+    .content__title {
+        max-width: 320px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .content__subtitle {
+        max-width: 330px;
+        font-size: 16px;
+        line-height: 23px;
+        margin: 8px auto 0;
+    }
+
+    .image-container {
+        margin: 32px 0 0;
+    }
+
+    .content__map {
+        min-height: 85.93px;
+        top: 48.31px;
+        bottom: 76.75px;
+        right: 8.8px;
+        left: 9px;
+    }
+    .lead__caption {
+        max-width: 343px;
+        margin:8px 16px 0 16px;
+    }
+}
