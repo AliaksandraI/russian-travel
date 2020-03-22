@@ -1,0 +1,37 @@
+.footer {
+    max-width: 1184px;
+    height: 23px;
+    margin-right:auto;
+    margin-left: auto;
+    padding-top: 160px;
+    padding-bottom: 48px;
+}
+
+
+.footer__columns {
+    display: flex;
+    justify-content: space-between;
+    height: 23px;
+}
+
+.footer__column-links {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__column-item {
+    min-width: 74px;
+    height: 23px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    margin-right: 18px;
+}
+
+.footer__author {
+    margin: 0;
+}
