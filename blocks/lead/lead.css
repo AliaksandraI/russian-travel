@@ -44,7 +44,7 @@
     max-width: 937.08px;
     min-height: 225.68px;
     margin: 0 auto;
-    object-fit: cover;
+    object-fit: contain;
     position: absolute;
     top: 126.88px;
     bottom: 201.57px;
@@ -65,3 +65,14 @@
     text-transform: uppercase;
     margin:0;
 }
+
+@media screen  and (min-width: 768px) and (max-width: 1024px)  {
+    .lead {
+        max-width: 928px;
+    }
+
+    .content__map {
+        max-width: 883.75px;
+    }
+
+} 

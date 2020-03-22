@@ -87,3 +87,17 @@
     line-height: 30px;
     margin: 0 0 36px 0;
 }
+
+@media screen  and (min-width: 768px) and (max-width: 1024px) {
+    .places {
+        max-width: 928px;
+    }
+    .place__paragraph{
+        max-width: 456px;
+    }
+
+    .place__image{
+        max-width: 440px;
+        height: 440px;
+    }
+}

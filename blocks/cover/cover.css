@@ -1,6 +1,6 @@
 .cover {
     max-width: 1184px;
-    height: 594px;
+    min-height: 594px;
     margin: 0 auto;
     background-image: url(../../images/Imagecover.png);
     background-size: cover;
@@ -23,6 +23,7 @@
     padding: 0;
     position: relative;
     top: 274px;
+    color: #FFFDFD;
 }
 
 
@@ -41,4 +42,25 @@
     
 }
 
+@media screen  and (min-width: 1024px) and (max-width: 1280px) {
+    .cover {
+        min-height: 562px;
+    }
+
+    .cover__title {
+        max-width: 965px;
+        min-height: 65px;
+        top: 211px;
+    }
+
+    .cover__subtitle {
+        top: 389px; 
+    }
+}
+
+@media screen  and (min-width: 768px) and (max-width: 1024px) {
+    .cover__title {
+        max-width: 500px;
+    }
+}
 
