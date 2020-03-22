@@ -28,10 +28,22 @@
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 41px;
     margin-right: 18px;
 }
 
 .footer__author {
     margin: 0;
+    max-width: 282px;
+    height: 13px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: right;
+}
+
+
+.footer__column_copyright {
+    display: flex;
+    align-items: flex-end;
 }

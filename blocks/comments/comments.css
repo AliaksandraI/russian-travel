@@ -1,7 +1,7 @@
 .comments {
     max-width: 1184px;
     max-height: 618px;
-    margin:100px 9% 0;
+    margin:100px 9% 102px;
 }
 
 .comments__content-title {
@@ -32,7 +32,7 @@
 .comments__container{
     max-width: 1184px;
     height: 283px;
-    margin: 72px 0 0;
+    margin: 72px 0 auto 0;
     display:  grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 19px;

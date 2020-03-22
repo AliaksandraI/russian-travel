@@ -1,10 +1,12 @@
 .cover {
     max-width: 1184px;
     height: 594px;
-    margin: 102px auto 0;
+    margin: 0 auto;
     background-image: url(../../images/Imagecover.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-origin: border-box;
+    position: relative;
 }
 
 
@@ -17,7 +19,10 @@
     font-size: 72px;
     line-height: 78px;
     text-align: center;
-    margin: 274px auto 0;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    top: 274px;
 }
 
 
@@ -30,7 +35,10 @@
     font-size: 18px;
     line-height: 26px;
     text-align: center;
-    margin: 134px auto 48px;
+    margin: 0 auto;
+    position: relative;
+    top: 399px;
+    
 }
 
 
