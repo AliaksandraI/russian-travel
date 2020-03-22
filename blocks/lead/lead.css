@@ -28,7 +28,7 @@
 
 
 .image-container {
-    width: 100%;
+    max-width: 100%;
     margin: 78px 0 0;
     position: relative;
 }
@@ -42,7 +42,7 @@
 
 .content__map {
     max-width: 937.08px;
-    height: 225.68px;
+    min-height: 225.68px;
     margin: 0 auto;
     object-fit: cover;
     position: absolute;
