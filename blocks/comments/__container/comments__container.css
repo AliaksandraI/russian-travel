@@ -1,0 +1,14 @@
+.comments__container{
+    max-width: 1184px;
+    min-height: 283px;
+    margin: 72px 0 auto 0;
+    display:  grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 19px;
+}
+
+
+.comments__container-comment {
+    max-width: 382px;
+    min-height: 213px;
+}
