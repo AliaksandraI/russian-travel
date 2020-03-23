@@ -140,3 +140,45 @@
         margin: 0 0 51px 0;
     }
 }
+
+
+@media screen  and (max-width: 375px) {
+
+    .place__website {
+        display: none;
+    }
+
+    .place__item-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .places {
+        max-width: 375px;
+        min-height: 4743px;
+    }
+    
+    .place__item {
+        max-width: 375px;
+        margin: 0 0 24px;
+    }
+
+    .place__title {
+        width: 343px;
+        font-size: 32px;
+        line-height: 35px;
+        margin:0 16px 32px;
+    }
+
+    .place__image{
+        max-width: 375px;
+        height: 375px;
+        object-fit: cover;
+        margin: 0 0 24px 0;
+    }
+    .place__paragraph{
+        max-width: 343px;
+        font-size: 16px;
+        line-height: 27px;
+        margin: 0 16px 24px 16px;
+    }
+}

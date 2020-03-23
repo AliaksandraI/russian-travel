@@ -6,7 +6,7 @@
 
 .comments__content-title {
     max-width: 800px;
-    height: 157px;
+    min-height: 157px;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -19,7 +19,7 @@
 
 .comments__content-subtitle{
     max-width: 640px;
-    height: 58px;
+    min-height: 58px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -31,7 +31,7 @@
 
 .comments__container{
     max-width: 1184px;
-    height: 283px;
+    min-height: 283px;
     margin: 72px 0 auto 0;
     display:  grid;
     grid-template-columns: repeat(3, 1fr);
@@ -41,7 +41,7 @@
 
 .comments__container-comment {
     max-width: 382px;
-    height: 213px;
+    min-height: 213px;
 }
 
 .comments__image {
@@ -90,21 +90,21 @@
 
     .comments__content-title {
         max-width: 660px;
-        height: 103px;
+        min-height: 103px;
         font-size: 42px;
         line-height: 46px;
     }
 
     .comments__content-subtitle {
         max-width: 640px;
-        height: 58px;
+        min-height: 58px;
         font-size: 24px;
         line-height: 35px;
         margin: 24px auto 0;
     }
     .comments__container{
         max-width: 382px;
-        height: 806px;
+        min-height: 806px;
         display:  grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: 200px 290px 220px;
@@ -134,4 +134,48 @@
         margin: 0 auto;
     }
     
+}
+
+@media screen and (max-width: 375px) {
+    .comments {
+        max-width: 343px;
+        min-height: 1089px;
+        margin:64px auto 48px;
+    } 
+
+    .comments__content-title {
+        max-width: 343px;
+        min-height: 80px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .comments__content-subtitle {
+        max-width: 343px;
+        min-height: 64px;
+        font-size: 16px;
+        line-height: 23px;
+        margin: 16px auto 0;
+    }
+    .comments__container{
+        max-width: 343px;
+        min-height: 881px;
+        margin: 48px auto 0;
+    }
+
+    .comments__container-comment {
+        max-width: 343px;
+        min-height: 223px;
+    }
+
+    .comment__quote {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    
+    .comment__author{
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 16px;
+    }
 }

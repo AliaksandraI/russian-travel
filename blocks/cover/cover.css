@@ -40,6 +40,7 @@
     margin: 0 auto;
     position: relative;
     top: 399px;
+    text-align: center;
     
 }
 
@@ -84,6 +85,30 @@
 
     .cover__subtitle {
         top: 220px; 
+    }
+    
+}
+
+@media screen  and (max-width: 375px) {
+    .cover {
+        max-width: 375px;
+        min-height: 272px;
+    }
+
+    .cover__title {
+        max-width: 343px;
+        height: 80px;
+        font-size: 32px;
+        line-height: 35px;
+        top: 104px;
+    }
+
+    .cover__subtitle {
+        max-width: 280px;
+        height: 57px;
+        font-size: 14px;
+        line-height: 17px;
+        top: 121px; 
     }
     
 }

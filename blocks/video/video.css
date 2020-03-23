@@ -96,3 +96,36 @@
         gap: 16px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .video {
+        max-width: 343px;
+        min-height: 598px;
+        margin: 40px auto 0;
+    }
+
+    .video__content-title {
+        max-width: 343px;
+        min-height: 80px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .video__content-subtitle {
+        max-width: 343px;
+        min-height: 70px;
+        font-size: 16px;
+        line-height: 23px;
+        margin: 16px auto 0;
+    }
+
+    .video__container {
+        max-width: 343px;
+        min-height: 408px;
+        margin: 24px 0 0;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+}

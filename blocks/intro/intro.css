@@ -70,3 +70,34 @@
         margin: 80px 24px 0 24px;
     }
 } 
+@media screen and (max-width: 375px)  {
+    .intro {
+        max-width: 343px;
+        min-height: 693px;
+        margin: 64px 16px 0 16px;
+    }
+    .intro__title {
+        max-width: 343px;
+        min-height: 72px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .intro__content-row {
+        margin: 32px 0 0;
+        max-width: 343px;
+        min-height: 154px; /*154px - в макете для 1440, но 7 строк * line-heihgt= 168px */
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .intro__text {
+        margin: 32px 0 0;
+        max-width: 343px;
+        height: 96px;
+    }
+    .intro__text-item {
+        font-size: 12px;
+        line-height: 19px;
+    }
+} 
