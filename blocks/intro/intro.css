@@ -31,7 +31,7 @@
 .intro__text {
     margin: 24px 300px 0 0;
     max-width: 383px;
-    height: 93px;
+    min-height: 93px;
     padding: 0;
 }
 
@@ -94,7 +94,7 @@
     .intro__text {
         margin: 32px 0 0;
         max-width: 343px;
-        height: 96px;
+        min-height: 96px;
     }
     .intro__text-item {
         font-size: 12px;

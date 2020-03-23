@@ -1,7 +1,7 @@
 
 .header {
     max-width: 1184px;
-    height: 52px;
+    min-height: 52px;
     padding-top: 30px;
     margin: 0 auto 0;
     display: flex;
@@ -18,7 +18,7 @@
 
 .header__menu-item {
     max-width: 30px;
-    height: 23px;
+    min-height: 23px;
     line-height: 23px;
     font-family: Inter;
     font-style: normal;

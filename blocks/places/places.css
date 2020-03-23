@@ -28,7 +28,7 @@
 
 .place__website {
     max-width: 484px;
-    height: 46px;
+    min-height: 46px;
     padding:0;
     display: flex;
     flex-direction: column;
@@ -42,7 +42,7 @@
 
 .place__url-heading {
     max-width: 484px;
-    height: 12px;
+    min-height: 12px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -55,7 +55,7 @@
 
 .place__url {
     max-width: 484px;
-    height: 18px;
+    min-height: 18px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -78,7 +78,7 @@
 }
 
 .place__paragraph{
-    width: 484px;
+    max-width: 484px;
     min-height: 138px;
     font-family: Inter;
     font-style: normal;
@@ -108,7 +108,7 @@
     }
 }
 
-@media screen  and (max-width: 768px) {
+@media screen and (max-width: 768px){
     .places {
         max-width: 720px;
         min-height: 2928px
@@ -126,7 +126,7 @@
     }
 
     .place__title {
-        max-width: 340px;
+        width: 340px;
         font-size: 42px;
         line-height: 46px;
     }
@@ -141,8 +141,7 @@
     }
 }
 
-
-@media screen  and (max-width: 375px) {
+@media screen and (max-width: 530px) {
 
     .place__website {
         display: none;
@@ -183,7 +182,8 @@
     }
 }
 
-@media screen  and (max-width: 320px) {
+
+@media screen and (max-width: 320px) {
     .places {
         max-width: 320px;
         min-height: 4865px;

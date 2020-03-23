@@ -13,7 +13,7 @@
 
 .cover__title {
     max-width: 1094.27px;
-    height: 69px;
+    min-height: 69px;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -30,7 +30,7 @@
 
 .cover__subtitle {
     max-width: 382px;
-    height: 69px;
+    min-height: 69px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -51,7 +51,7 @@
 
     .cover__title {
         max-width: 1094px;
-        height: 69px;
+        min-height: 69px;
         top: 274px;
     }
 
@@ -78,8 +78,8 @@
     }
 
     .cover__title {
-        max-width: 720px;
-        height: 170px;
+        max-width: 550px;
+        min-height: 170px;
         top: 165px;
     }
 
@@ -97,7 +97,7 @@
 
     .cover__title {
         max-width: 343px;
-        height: 80px;
+        min-height: 80px;
         font-size: 32px;
         line-height: 35px;
         top: 104px;
@@ -105,7 +105,7 @@
 
     .cover__subtitle {
         max-width: 280px;
-        height: 57px;
+        min-height: 57px;
         font-size: 14px;
         line-height: 17px;
         top: 121px; 
@@ -120,12 +120,12 @@
     }
     .cover__title {
         max-width: 229px;
-        height: 72px;
+        min-height: 72px;
         top: 64px;
     }
     .cover__subtitle {
         max-width: 280px;
-        height: 49px;
+        min-height: 49px;
         top: 61px; 
     }
 }

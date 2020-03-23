@@ -55,7 +55,7 @@
 
 .lead__caption {
     max-width: 636px;
-    height: 10px;
+    min-height: 10px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -96,6 +96,14 @@
         margin:16px 0 0 24px;
     }
 } 
+
+@media screen and (max-width: 690px) {
+    .content__title {
+        max-width: 670px;
+        font-size: 45px;
+        line-height: 48px;
+    }
+}
 
 @media screen and (max-width: 375px)  {
     .lead {

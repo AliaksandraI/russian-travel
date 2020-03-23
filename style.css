@@ -1,3 +1,4 @@
+
 @import url(./blocks/comments/comments.css);
 @import url(./blocks/cover/cover.css);
 @import url(./blocks/footer/footer.css);
@@ -24,7 +25,7 @@
 
 
 @font-face {
-    src: url(../../Inter-3.12/Inter/Inter-Bold.otf);
+    src: url(./Inter-3.12/Inter/Inter-Bold.otf);
     font-family: 'Inter'; 
     font-weight: bold;
     font-style: normal;
@@ -37,7 +38,7 @@
 
 
 @font-face {
-    src: url(../../Inter-3.12/Inter/Inter-ExtraBold.otf);
+    src: url(./Inter-3.12/Inter/Inter-ExtraBold.otf);
     font-family: 'Inter'; 
     font-weight: 900;
     font-style: normal;
@@ -70,11 +71,4 @@ ul {
     opacity: 0.3;
     transition: opacity 1s linear 0.5s;
     text-decoration: underline;
-}
-
-@media screen and (max-width: 1023px)  {
-    .page {
-        max-width: 1023px;
-    }
-
 }

@@ -80,9 +80,17 @@
         min-height: 133px;
         line-height: 65px;
     }
+    .comments__container{
+        max-width: 1184px;
+        min-height: 339px;
+    }
+    .comments__container-comment {
+        max-width: 296px;
+        min-height: 339px;
+    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
     .comments {
         max-width: 660px;
         min-height: 1063px;
@@ -120,7 +128,7 @@
 
     .comment__quote {
         order: 2;
-        text-align: justify;
+       /* text-align: justify;*/
     }
     .comment__author {
         order: 1;
@@ -136,7 +144,7 @@
     
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px){
     .comments {
         max-width: 343px;
         min-height: 1089px;
