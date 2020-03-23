@@ -101,3 +101,10 @@
         line-height: 19px;
     }
 } 
+
+@media screen and (max-width: 320px) {
+    .intro {
+        max-width: 320px;
+        min-height: 784px;
+    }
+}

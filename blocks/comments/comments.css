@@ -179,3 +179,20 @@
         margin-top: 16px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .comments {
+        max-width: 288px;
+        min-height: 1136px;
+        margin:64px auto 64px;
+    } 
+    .comments__content-title {
+        min-height: 112px;
+    }
+
+    .comments__container{
+        max-width: 288px;
+        min-height: 904px;
+        margin: 40px auto 0;
+    }
+}

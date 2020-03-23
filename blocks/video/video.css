@@ -129,3 +129,29 @@
     }
 
 }
+
+@media screen and (max-width: 375px) {
+    .video {
+        max-width: 288px;
+        min-height: 616px;
+        margin: 40px auto 0;
+    }
+
+    .video__content-title {
+        min-height: 112px;
+    }
+
+    .video__content-subtitle {
+        min-height: 72px;
+    }
+
+    .video__container-item {
+        max-width: 288px;
+        min-height: 192px;
+     }
+
+     .video__picture{
+        object-fit: cover;
+        object-position: left;
+     }
+}

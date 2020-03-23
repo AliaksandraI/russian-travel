@@ -182,3 +182,22 @@
         margin: 0 16px 24px 16px;
     }
 }
+
+@media screen  and (max-width: 320px) {
+    .places {
+        max-width: 320px;
+        min-height: 4865px;
+    }
+
+    .place__image{
+        max-width: 320px;
+        height: 320px;
+    }
+    .place__paragraph{
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+}
+

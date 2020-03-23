@@ -44,3 +44,11 @@
         gap: 16px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        max-width: 288px;
+        min-height: 2392px;
+        gap: 8px;
+    }
+}

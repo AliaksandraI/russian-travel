@@ -131,3 +131,19 @@
         margin:8px 16px 0 16px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .lead {
+        max-width: 320px;
+        min-height: 413px;
+    }
+
+    .content__title {
+        min-height: 96px;
+    }
+
+    .content__image {
+        min-height: 211px;
+        object-fit: fill;
+    }
+}
