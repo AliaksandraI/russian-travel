@@ -1,0 +1,35 @@
+.place__website {
+    max-width: 484px;
+    min-height: 46px;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    margin: 87px 0 60px 0;
+}
+
+.place__website-small {
+    margin: 23px 0 60px 0;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .place__website {
+        max-width: 352px;
+        line-height: 46px;
+        margin: 39px 0 51px 0;
+    }
+    .place__website-small {
+        margin: 0 0 51px 0;
+    }
+}
+
+@media screen and (max-width: 530px) {
+
+    .place__website {
+        display: none;
+    }
+  
+}
+
+

@@ -1,157 +1,51 @@
+@import url(./__title/lead__title.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__image/lead__image.css);
+@import url(./__map/lead__map.css);
+@import url(./__caption/lead__caption.css);
+
+
 .lead {
     max-width: 985px;
     min-height: 950px;
     margin:48px auto 0;
 }
 
-.lead__title {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 96px;
-    max-width: 782px;
-    line-height: 93px;
-    text-align: center;
-    margin: 0 auto;
-}
 
-.lead__subtitle {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    max-width: 583px;
-    line-height: 36px;
-    text-align: center;
-    margin: 48px auto 0;
-}
-
-
-.lead__image-container {
-    max-width: 100%;
-    margin: 78px 0 0;
-    position: relative;
-}
-
-.lead__image {
-    width: 100%;
-    object-fit: cover;
-    object-position: 0 0;
-    z-index: 0;
-}
-
-.lead__map {
-    max-width: 95%;
-    min-height: 225.68px;
-    margin: 0 auto;
-    object-fit: contain;
-    position: absolute;
-    top: 126.88px;
-    bottom: 201.57px;
-    right: 23.65px;
-    left: 23.27px;
-    z-index: 1;
-}
-
-.lead__caption {
-    max-width: 636px;
-    min-height: 10px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 10px;
-    line-height: 12px;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    margin:0;
-}
 
 @media screen and (max-width: 1024px)  {
+
     .lead {
         max-width: 928px;
         min-height: 821px;
     }
+
 } 
 
 @media screen and (max-width: 768px)  {
+
     .lead {
         max-width: 768px;
         min-height: 412px;
     }
 
-    .lead__map {
-        top: 96.17px;
-        bottom: 152.78px;
-        right: 18.16px;
-        left: 18.46px;
-    }
-    .lead__title {
-        max-width: 720px;
-    }
-
-    .lead__subtitle {
-        max-width: 650px;
-    }
-    .lead__caption {
-        margin:16px 0 0 24px;
-    }
 } 
 
-@media screen and (max-width: 690px) {
-    .lead__title {
-        max-width: 670px;
-        font-size: 45px;
-        line-height: 48px;
-    }
-}
 
 @media screen and (max-width: 375px)  {
+
     .lead {
         max-width: 375px;
         min-height: 412px;
     }
-    .lead__title {
-        max-width: 320px;
-        font-size: 40px;
-        line-height: 44px;
-    }
 
-    .lead__subtitle {
-        max-width: 330px;
-        font-size: 16px;
-        line-height: 23px;
-        margin: 8px auto 0;
-    }
-
-    .lead__image-container {
-        margin: 32px 0 0;
-    }
-
-    .lead__map {
-        min-height: 85.93px;
-        top: 48.31px;
-        bottom: 76.75px;
-        right: 8.8px;
-        left: 9px;
-    }
-    .lead__caption {
-        max-width: 343px;
-        margin:8px 16px 0 16px;
-    }
 }
 
 @media screen and (max-width: 320px) {
+
     .lead {
         max-width: 320px;
         min-height: 413px;
     }
 
-    .lead__title {
-        min-height: 96px;
-    }
-
-    .lead__image {
-        min-height: 211px;
-        object-fit: fill;
-    }
 }

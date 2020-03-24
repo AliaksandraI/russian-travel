@@ -1,0 +1,32 @@
+.place__item {
+    max-width: 984px;
+    margin: 0 0 72px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.place__item-row {
+    display: flex;
+}
+
+
+.place__item-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 530px) {
+
+    .place__item-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .place__item {
+        max-width: 375px;
+        margin: 0 0 24px;
+    }
+  
+}

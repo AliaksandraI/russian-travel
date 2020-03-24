@@ -1,0 +1,16 @@
+
+.video__picture {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}  
+
+
+@media screen and (max-width: 320px) {
+
+     .video__picture{
+        object-fit: cover;
+        object-position: left;
+     }
+     
+}
