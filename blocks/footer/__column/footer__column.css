@@ -9,7 +9,7 @@
 .footer__column-item {
     min-width: 74px;
     min-height: 23px;
-    font-family: Inter;
+    font-family: 'Inter','Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
