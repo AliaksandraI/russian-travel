@@ -1,4 +1,4 @@
-
+@import url(./blocks/page/page.css);
 @import url(./blocks/comments/comments.css);
 @import url(./blocks/cover/cover.css);
 @import url(./blocks/footer/footer.css);
@@ -8,11 +8,15 @@
 @import url(./blocks/photo-grids/photo-grids.css);
 @import url(./blocks/places/places.css);
 @import url(./blocks/video/video.css);
+@import url(./blocks/link/link.css);
 
 
 
 @font-face {
-    src: url(./Inter-3.12/Inter/Inter-Light.otf);
+    src: url(./Inter-3.12/Inter-Light.woff2) format('woff'),
+         url(./Inter-3.12/Inter-Light.woff2) format('woff2'),
+         url(./Inter-3.12/Inter-Light.ttf) format('truetype'),
+         url(./Inter-3.12/Inter-Light.otf) format('otf');
     font-family: 'Inter'; 
     font-weight: normal;
     font-style: normal;
@@ -25,7 +29,10 @@
 
 
 @font-face {
-    src: url(./Inter-3.12/Inter/Inter-Bold.otf);
+    src: url(./Inter-3.12/Inter-Bold.woff) format('woff'),
+         url(./Inter-3.12/Inter-Bold.woff2) format('woff2'),
+         url(./Inter-3.12/Inter-Bold.ttf) format('truetype'),
+         url(./Inter-3.12/Inter-Bold.otf) format('otf');
     font-family: 'Inter'; 
     font-weight: bold;
     font-style: normal;
@@ -38,7 +45,10 @@
 
 
 @font-face {
-    src: url(./Inter-3.12/Inter/Inter-ExtraBold.otf);
+    src: url(./Inter-3.12/Inter-ExtraBold.woff) format('woff'),
+         url(./Inter-3.12/Inter-ExtraBold.woff2) format('woff2'),
+         url(./Inter-3.12/Inter-ExtraBold.ttf) format('truetype'),
+         url(./Inter-3.12/Inter-ExtraBold.otf) format('otf');
     font-family: 'Inter'; 
     font-weight: 900;
     font-style: normal;
@@ -49,26 +59,7 @@
     -moz-text-size-adjust: 100%;
 }
 
-.check {
-    border: 3px solid red;
-}
 
-.page {
-    background-color: #2A2C2F;
-    color: #FFFFFF;
-}
 
-ul {
-    list-style-type: none;
-}
 
-.link {
-    text-decoration: none;
-    color: #FFFFFF;
-}
 
-.link:hover {
-    opacity: 0.3;
-    transition: opacity 1s linear 0.5s;
-    text-decoration: underline;
-}
