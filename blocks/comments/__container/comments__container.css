@@ -12,3 +12,60 @@
     max-width: 382px;
     min-height: 213px;
 }
+
+
+@media screen and (max-width: 1024px) {
+
+    .comments__container{
+        max-width: 1184px;
+        min-height: 339px;
+    }
+    .comments__container-comment {
+        max-width: 296px;
+        min-height: 339px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .comments__container{
+        max-width: 382px;
+        min-height: 806px;
+        display:  grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 200px 290px 220px;
+        gap: 48px;
+        margin: 72px auto 0;
+    }
+
+    .comments__container-text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .comments__container{
+        max-width: 343px;
+        min-height: 881px;
+        margin: 48px auto 0;
+    }
+
+    .comments__container-comment {
+        max-width: 343px;
+        min-height: 223px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .comments__container{
+        max-width: 288px;
+        min-height: 904px;
+        margin: 40px auto 0;
+    }
+}

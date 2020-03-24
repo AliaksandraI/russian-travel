@@ -1,0 +1,33 @@
+
+.intro__text {
+    margin: 24px 300px 0 0;
+    max-width: 383px;
+    min-height: 93px;
+    padding: 0;
+}
+
+.intro__text-item {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.intro__text-item-normal {
+    font-weight: normal;
+}
+
+
+@media screen and (max-width: 375px)  {
+    
+    .intro__text {
+        margin: 32px 0 0;
+        max-width: 343px;
+        min-height: 96px;
+    }
+    .intro__text-item {
+        font-size: 12px;
+        line-height: 19px;
+    }
+} 

@@ -4,7 +4,7 @@
     margin:48px auto 0;
 }
 
-.content__title {
+.lead__title {
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -15,7 +15,7 @@
     margin: 0 auto;
 }
 
-.content__subtitle {
+.lead__subtitle {
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -27,20 +27,20 @@
 }
 
 
-.image-container {
+.lead__image-container {
     max-width: 100%;
     margin: 78px 0 0;
     position: relative;
 }
 
-.content__image {
+.lead__image {
     width: 100%;
     object-fit: cover;
     object-position: 0 0;
     z-index: 0;
 }
 
-.content__map {
+.lead__map {
     max-width: 95%;
     min-height: 225.68px;
     margin: 0 auto;
@@ -79,17 +79,17 @@
         min-height: 412px;
     }
 
-    .content__map {
+    .lead__map {
         top: 96.17px;
         bottom: 152.78px;
         right: 18.16px;
         left: 18.46px;
     }
-    .content__title {
+    .lead__title {
         max-width: 720px;
     }
 
-    .content__subtitle {
+    .lead__subtitle {
         max-width: 650px;
     }
     .lead__caption {
@@ -98,7 +98,7 @@
 } 
 
 @media screen and (max-width: 690px) {
-    .content__title {
+    .lead__title {
         max-width: 670px;
         font-size: 45px;
         line-height: 48px;
@@ -110,24 +110,24 @@
         max-width: 375px;
         min-height: 412px;
     }
-    .content__title {
+    .lead__title {
         max-width: 320px;
         font-size: 40px;
         line-height: 44px;
     }
 
-    .content__subtitle {
+    .lead__subtitle {
         max-width: 330px;
         font-size: 16px;
         line-height: 23px;
         margin: 8px auto 0;
     }
 
-    .image-container {
+    .lead__image-container {
         margin: 32px 0 0;
     }
 
-    .content__map {
+    .lead__map {
         min-height: 85.93px;
         top: 48.31px;
         bottom: 76.75px;
@@ -146,11 +146,11 @@
         min-height: 413px;
     }
 
-    .content__title {
+    .lead__title {
         min-height: 96px;
     }
 
-    .content__image {
+    .lead__image {
         min-height: 211px;
         object-fit: fill;
     }

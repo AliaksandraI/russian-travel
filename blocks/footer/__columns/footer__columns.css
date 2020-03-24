@@ -1,0 +1,27 @@
+
+
+.footer__columns {
+    display: flex;
+    justify-content: space-between;
+    min-height: 23px;
+}
+
+
+@media screen and (max-width: 570px) {
+    
+    .footer__columns {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
+
+
+@media screen and (max-width: 375px) {
+    
+    .footer__columns {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}

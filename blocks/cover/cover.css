@@ -1,3 +1,8 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+
+
+
 .cover {
     max-width: 1184px;
     min-height: 594px;
@@ -11,121 +16,46 @@
 }
 
 
-.cover__title {
-    max-width: 1094.27px;
-    min-height: 69px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 78px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0;
-    position: relative;
-    top: 274px;
-    color: #FFFDFD;
-}
-
-
-.cover__subtitle {
-    max-width: 382px;
-    min-height: 69px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 26px;
-    text-align: center;
-    margin: 0 auto;
-    position: relative;
-    top: 399px;
-    text-align: center;
-    
-}
 
 @media screen and (max-width: 1280px) {
+
     .cover {
         min-height: 594px;
     }
 
-    .cover__title {
-        max-width: 1094px;
-        min-height: 69px;
-        top: 274px;
-    }
-
-    .cover__subtitle {
-        top: 408px; 
-    }
 }
 
 @media screen and (max-width: 1024px) {
+
     .cover {
         max-width: 1024px;
         min-height: 562px;
     }
-    .cover__title {
-        max-width: 500px;
-        top: 211px;
-    }
     
 }
 @media screen  and (max-width: 768px) {
+
     .cover {
         max-width: 768px;
         min-height: 500px;
-    }
-
-    .cover__title {
-        max-width: 550px;
-        min-height: 170px;
-        top: 165px;
-    }
-
-    .cover__subtitle {
-        top: 220px; 
     }
     
 }
 
 @media screen  and (max-width: 375px) {
+
     .cover {
         max-width: 375px;
         min-height: 272px;
-    }
-
-    .cover__title {
-        max-width: 343px;
-        min-height: 80px;
-        font-size: 32px;
-        line-height: 35px;
-        top: 104px;
-    }
-
-    .cover__subtitle {
-        max-width: 280px;
-        min-height: 57px;
-        font-size: 14px;
-        line-height: 17px;
-        top: 121px; 
     }
     
 }
 
 @media screen  and (max-width: 320px) {
+    
     .cover {
         max-width: 320px;
         min-height: 216px;
     }
-    .cover__title {
-        max-width: 229px;
-        min-height: 72px;
-        top: 64px;
-    }
-    .cover__subtitle {
-        max-width: 280px;
-        min-height: 49px;
-        top: 61px; 
-    }
+
 }

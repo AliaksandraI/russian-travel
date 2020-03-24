@@ -1,3 +1,8 @@
+@import url(./__columns/footer__columns.css);
+@import url(./__column/footer__column.css);
+@import url(./__author/footer__author.css);
+
+
 .footer {
     max-width: 1184px;
     min-height: 23px;
@@ -8,90 +13,34 @@
 }
 
 
-.footer__columns {
-    display: flex;
-    justify-content: space-between;
-    min-height: 23px;
-}
-
-.footer__column-links {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-}
-
-.footer__column-item {
-    min-width: 74px;
-    min-height: 23px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    margin-right: 18px;
-}
-
-.footer__author {
-    margin: 0;
-    max-width: 282px;
-    min-height: 13px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    text-align: right;
-}
-
-
-.footer__column_copyright {
-    display: flex;
-    align-items: flex-end;
-}
-
 @media screen  and (max-width: 1024px) {
+
     .footer {
         max-width: 929px;
     }
 }
 
 @media screen and (max-width: 768px) {
+
     .footer {
         max-width: 722px;
         min-height: 28px;
         padding-top: 102px;
         padding-bottom: 24px;
     }
-    .footer__column-item {
-        min-width: 50px;
-        height: 28px;
-        font-size: 16px;
-    }
-    
-    .footer__author {
-        max-width: 220px;  /* не 183px как в макете, т.к. длинное имя*/
-        min-height: 21px;
-    }
     
 }
 
 @media screen and (max-width: 690px) {
+
     .footer {
         max-width: 670px;
     }
-    .footer__column-item {
-        max-width: 50px;
-        min-height: 20px;
-        font-size: 10px;
-    }
-    
-    .footer__author {
-        max-width: 183px; 
-        min-height: 16px;
-        font-size: 10px;
-    }
+   
 }
 
 @media screen and (max-width: 570px) {
+
     .footer {
         max-width: 282px;
         min-height: 312px;
@@ -99,33 +48,12 @@
         margin-right:16px;
         margin-left: 16px;
     }
-    .footer__column-item {
-        min-width: 74px;
-        min-height: 23px;
-        font-size: 24px;
-        margin-bottom: 32px;
-    }
-    
-    .footer__author {
-        max-width: 282px;  /* не 183px как в макете, т.к. длинное имя*/
-        min-height: 21px;
-        margin-top: 16px;
-
-    }
-    
-    .footer__columns {
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .footer__column-links {
-       
-        flex-direction: column;
-    }
+   
 }
 
 
 @media screen and (max-width: 375px) {
+    
     .footer {
         max-width: 282px;
         min-height: 312px;
@@ -133,27 +61,5 @@
         margin-right:16px;
         margin-left: 16px;
     }
-    .footer__column-item {
-        min-width: 74px;
-        min-height: 23px;
-        font-size: 24px;
-        margin-bottom: 32px;
-    }
-    
-    .footer__author {
-        max-width: 282px;  /* не 183px как в макете, т.к. длинное имя*/
-        min-height: 21px;
-        margin-top: 16px;
 
-    }
-    
-    .footer__columns {
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .footer__column-links {
-       
-        flex-direction: column;
-    }
 }

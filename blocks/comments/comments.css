@@ -1,7 +1,8 @@
-@import url(./__author/comments__author.css);
+
 @import url(./__container/comments__container.css);
 @import url(./__content/comments__content.css);
 @import url(./__image/comments__image.css);
+@import url(./__author/comments__author.css);
 @import url(./__quote/comments__quote\ .css);
 
 
@@ -12,50 +13,89 @@
     margin:100px auto 102px;
 }
 
+.comments__content-title {
+    max-width: 800px;
+    min-height: 157px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    /* or 108.9% */
+    text-align: center;
+    margin:0 auto 0;
+}
+
+.comments__content-subtitle{
+    max-width: 640px;
+    min-height: 58px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    margin: 48px auto 0;
+}
+
+.comments__container{
+    max-width: 1184px;
+    min-height: 283px;
+    margin: 72px 0 auto 0;
+    display:  grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 19px;
+}
+
+
+.comments__container-comment {
+    max-width: 382px;
+    min-height: 213px;
+}
+
+.comments__image {
+    border-radius: 50%;
+}
+
+
+.comments__quote {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;  
+}
+
+.comments__author{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 24px;
+}
 
 @media screen and (max-width: 1280px) {
+
     .comments {
         max-width: 928px;
         min-height: 650px;
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .comments__content-title {
-        max-width: 800px;
-        min-height: 133px;
-        line-height: 65px;
-    }
-    .comments__container{
-        max-width: 1184px;
-        min-height: 339px;
-    }
-    .comments__container-comment {
-        max-width: 296px;
-        min-height: 339px;
-    }
-}
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width: 768px){
     .comments {
         max-width: 660px;
         min-height: 1063px;
     } 
+    
+}
 
-    .comments__content-title {
-        max-width: 660px;
-        min-height: 103px;
-        font-size: 42px;
-        line-height: 46px;
-    }
+/*почему едет*/
+@media screen and (max-width: 768px) {
 
-    .comments__content-subtitle {
-        max-width: 640px;
-        min-height: 58px;
-        font-size: 24px;
-        line-height: 35px;
-        margin: 24px auto 0;
-    }
     .comments__container{
         max-width: 382px;
         min-height: 806px;
@@ -72,81 +112,25 @@
         flex-wrap: wrap;
     }
 
-    .comments__quote {
-        order: 2;
-       /* text-align: justify;*/
-    }
-    .comments__author {
-        order: 1;
-        text-align: center;
-        margin-top: 16px;
-        margin-bottom: 24px;
-    }
-
-    .comments__image {
-        display: block;
-        margin: 0 auto;
-    }
-    
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px) {
+
     .comments {
         max-width: 343px;
         min-height: 1089px;
         margin:64px auto 48px;
     } 
-
-    .comments__content-title {
-        max-width: 343px;
-        min-height: 80px;
-        font-size: 32px;
-        line-height: 35px;
-    }
-
-    .comments__content-subtitle {
-        max-width: 343px;
-        min-height: 64px;
-        font-size: 16px;
-        line-height: 23px;
-        margin: 16px auto 0;
-    }
-    .comments__container{
-        max-width: 343px;
-        min-height: 881px;
-        margin: 48px auto 0;
-    }
-
-    .comments__container-comment {
-        max-width: 343px;
-        min-height: 223px;
-    }
-
-    .comments__quote {
-        font-size: 16px;
-        line-height: 23px;
-    }
-    
-    .comments__author{
-        font-size: 14px;
-        line-height: 16px;
-        margin-top: 16px;
-    }
+   
 }
 
 @media screen and (max-width: 320px) {
+
     .comments {
         max-width: 288px;
         min-height: 1136px;
         margin:64px auto 64px;
     } 
-    .comments__content-title {
-        min-height: 112px;
-    }
 
-    .comments__container{
-        max-width: 288px;
-        min-height: 904px;
-        margin: 40px auto 0;
-    }
 }
+

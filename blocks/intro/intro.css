@@ -1,3 +1,6 @@
+@import url(./__title/intro__title.css);
+@import url(./__content/intro__content.css);
+@import url(./__text/intro__text.css);
 
 .intro {
     max-width: 683px;
@@ -6,48 +9,8 @@
 }
 
 
-.intro__title {
-    margin: 0;
-    max-width: 683px;
-    min-height: 52px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 59px;
-}
-
-.intro__content-row {
-    margin: 53px 0 0;
-    max-width: 683px;
-    min-height: 154px; /*154px - в макете для 1440, но 7 строк * line-heihgt= 168px */
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-}
-
-.intro__text {
-    margin: 24px 300px 0 0;
-    max-width: 383px;
-    min-height: 93px;
-    padding: 0;
-}
-
-.intro__text-item {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 20px;
-}
-
-.intro__text-item-normal {
-    font-weight: normal;
-}
-
 @media screen and (max-width: 1280px)  {
+
     .intro {
         max-width: 683px;
         min-height: 371px;
@@ -56,6 +19,7 @@
 } 
 
 @media screen  and (max-width: 1024px)  {
+
     .intro {
         max-width: 692px;
         min-height: 377px;
@@ -64,45 +28,26 @@
 } 
 
 @media screen and (max-width: 768px)  {
+
     .intro {
         max-width: 720px;
         min-height: 384px;
         margin: 80px 24px 0 24px;
     }
 } 
+
 @media screen and (max-width: 375px)  {
+
     .intro {
         max-width: 343px;
         min-height: 693px;
         margin: 64px 16px 0 16px;
     }
-    .intro__title {
-        max-width: 343px;
-        min-height: 72px;
-        font-size: 32px;
-        line-height: 35px;
-    }
 
-    .intro__content-row {
-        margin: 32px 0 0;
-        max-width: 343px;
-        min-height: 154px; /*154px - в макете для 1440, но 7 строк * line-heihgt= 168px */
-        font-size: 16px;
-        line-height: 27px;
-    }
-
-    .intro__text {
-        margin: 32px 0 0;
-        max-width: 343px;
-        min-height: 96px;
-    }
-    .intro__text-item {
-        font-size: 12px;
-        line-height: 19px;
-    }
 } 
 
 @media screen and (max-width: 320px) {
+    
     .intro {
         max-width: 320px;
         min-height: 784px;
