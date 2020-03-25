@@ -3,6 +3,7 @@
 .footer__columns {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     min-height: 23px;
 }
 
@@ -12,6 +13,7 @@
     .footer__columns {
         flex-direction: column;
         justify-content: space-between;
+        align-items: flex-start;
     }
 
 }
@@ -19,9 +21,5 @@
 
 @media screen and (max-width: 375px) {
     
-    .footer__columns {
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
+    
 }

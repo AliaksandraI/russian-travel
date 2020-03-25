@@ -9,14 +9,15 @@
     margin: 0 auto;
     background-image: url(../../images/Imagecover.png);
     background-size: cover;
+    opacity: 0.8;
     background-repeat: no-repeat;
     background-origin: border-box;
     position: relative;
 }
 
 .cover:hover {
-    opacity: 0.8;
-    transition: opacity 1s linear 0.5s;
+    opacity: 0.6;
+    transition: opacity .2s linear 0.5s;
 }
 
 

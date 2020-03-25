@@ -2,7 +2,6 @@
 .footer__author {
     margin: 0;
     max-width: 282px;
-    min-height: 13px;
     font-family: 'Inter','Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -15,7 +14,6 @@
     
     .footer__author {
         max-width: 220px;  /* не 183px как в макете, т.к. длинное имя*/
-        min-height: 21px;
     }
     
 }
@@ -24,8 +22,6 @@
     
     .footer__author {
         max-width: 183px; 
-        min-height: 16px;
-        font-size: 10px;
     }
 }
 
@@ -33,7 +29,6 @@
     
     .footer__author {
         max-width: 282px;  /* не 183px как в макете, т.к. длинное имя*/
-        min-height: 21px;
         margin-top: 16px;
     }
    
@@ -44,7 +39,6 @@
     
     .footer__author {
         max-width: 282px;  /* не 183px как в макете, т.к. длинное имя*/
-        min-height: 21px;
         margin-top: 16px;
 
     }

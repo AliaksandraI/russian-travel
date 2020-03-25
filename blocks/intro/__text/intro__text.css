@@ -14,8 +14,16 @@
     line-height: 20px;
 }
 
-.intro__text-item-normal {
+.intro__text-item_normal {
     font-weight: normal;
+}
+
+@media screen and (max-width: 1200px) {
+    .intro__text {
+        min-width: 340px;
+
+    }
+
 }
 
 
@@ -25,6 +33,7 @@
         margin: 32px 0 0;
         max-width: 343px;
         min-height: 96px;
+        min-width: 0;
     }
     .intro__text-item {
         font-size: 12px;

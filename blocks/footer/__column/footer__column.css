@@ -8,7 +8,6 @@
 
 .footer__column-item {
     min-width: 74px;
-    min-height: 23px;
     font-family: 'Inter','Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -27,7 +26,6 @@
    
     .footer__column-item {
         min-width: 50px;
-        height: 28px;
         font-size: 16px;
     }
     
@@ -37,9 +35,9 @@
    
     .footer__column-item {
         max-width: 50px;
-        min-height: 20px;
         font-size: 10px;
     }
+    
 
 }
 
@@ -47,7 +45,6 @@
  
     .footer__column-item {
         min-width: 74px;
-        min-height: 23px;
         font-size: 24px;
         margin-bottom: 32px;
     }
@@ -63,7 +60,6 @@
 
     .footer__column-item {
         min-width: 74px;
-        min-height: 23px;
         font-size: 24px;
         margin-bottom: 32px;
     }

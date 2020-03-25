@@ -2,54 +2,57 @@
 @import url(./__content/intro__content.css);
 @import url(./__text/intro__text.css);
 
-.intro {
-    max-width: 683px;
-    min-height: 376px;
-    margin: 75px 529px 0 228px;
-}
 
+.intro {
+    max-width: 985px;
+    min-height: 376px;
+    margin:80px auto 0;
+}
 
 @media screen and (max-width: 1280px)  {
 
     .intro {
-        max-width: 683px;
         min-height: 371px;
-        margin: 80px 449px 0 148px;
     }
 } 
 
-@media screen  and (max-width: 1024px)  {
+
+
+@media screen and (max-width: 1024px)  {
 
     .intro {
-        max-width: 692px;
+        max-width: 928px;
         min-height: 377px;
-        margin: 80px 284px 0 48px;
     }
+
 } 
 
 @media screen and (max-width: 768px)  {
 
     .intro {
-        max-width: 720px;
+        max-width: 768px;
         min-height: 384px;
-        margin: 80px 24px 0 24px;
     }
+
 } 
+
 
 @media screen and (max-width: 375px)  {
 
     .intro {
-        max-width: 343px;
+        max-width: 375px;
         min-height: 693px;
-        margin: 64px 16px 0 16px;
+        margin: 64px 16px 0;
     }
 
-} 
+}
 
 @media screen and (max-width: 320px) {
-    
+
     .intro {
         max-width: 320px;
         min-height: 784px;
     }
+
 }
+
