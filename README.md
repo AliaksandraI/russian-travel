@@ -1,5 +1,7 @@
 # Проект 3: Путешествие по России
 
+Branch Places
+
 Проект о путешествии по России: https://aliaksandrai.github.io/russian-travel/.
 
 ## Описание проекта
