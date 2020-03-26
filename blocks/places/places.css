@@ -7,8 +7,11 @@
 
 .places {
     max-width: 984px;
-    min-height: 3362px;
     margin: 0 auto 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, max-content);
+    gap: 72px;
 }
 
 
@@ -16,35 +19,34 @@
 
     .places {
         max-width: 928px;
-        min-height: 3267px;
     }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 965px) {
 
     .places {
         max-width: 720px;
-        min-height: 2928px
     }
-   
+
 }
 
-@media screen and (max-width: 530px) {
+
+
+
+@media screen and (max-width: 730px) {
 
     .places {
         max-width: 375px;
-        min-height: 4743px;
+        gap: 48px;
     }
   
 }
 
 
 @media screen and (max-width: 320px) {
-
     .places {
         max-width: 320px;
-        min-height: 4865px;
     }
 
 }
