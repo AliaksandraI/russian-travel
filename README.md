@@ -2,6 +2,7 @@
 
 Проект о путешествии по России: https://aliaksandrai.github.io/russian-travel/.
 
+
 ## Описание проекта
 
 Редактор кода: VSCode. 
