@@ -38,6 +38,11 @@
         margin: 72px auto 0;
     }
 
+    .comments__container-comment {
+        max-width: 382px;
+        min-height: 200px;
+    }
+
     .comments__container-text {
         display: flex;
         flex-direction: column;
