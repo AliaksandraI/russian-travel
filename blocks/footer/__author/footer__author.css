@@ -6,7 +6,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 41px;
+    line-height: 35px;
     text-align: right;
 }
 
@@ -14,7 +14,7 @@
 @media screen and (max-width: 768px) {
     
     .footer__author {
-        max-width: 183px;  /*220? не 183px как в макете, т.к. длинное имя*/
+        max-width: 183px;
     }
     
 }
@@ -31,14 +31,6 @@
 }
 
 @media screen and (max-width: 375px) {
-    
-    .footer__author {
-        max-width: 282px; 
-    }
-    
-}
-
-@media screen and (max-width: 320px) {
     
     .footer__author {
         max-width: 282px; 
