@@ -70,6 +70,22 @@
 
 }
 
+@media screen and (max-width: 630px) {
+
+    .video__container {
+        max-width: 348px;
+        min-height: 408px;
+        margin: 24px auto 0;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .video__container-item {
+        max-width: 348px;
+     }
+}
+
 @media screen and (max-width: 375px) {
 
     .video__container {
