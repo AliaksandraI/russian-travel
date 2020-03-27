@@ -6,6 +6,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
+    line-height: 41px;
     text-align: right;
 }
 
@@ -13,34 +14,34 @@
 @media screen and (max-width: 768px) {
     
     .footer__author {
-        max-width: 220px;  /* не 183px как в макете, т.к. длинное имя*/
+        max-width: 183px;  /*220? не 183px как в макете, т.к. длинное имя*/
     }
     
 }
 
-@media screen and (max-width: 690px) {
-    
-    .footer__author {
-        max-width: 183px; 
-    }
-}
-
-@media screen and (max-width: 570px) {
-    
-    .footer__author {
-        max-width: 282px;  /* не 183px как в макете, т.к. длинное имя*/
-        margin-top: 16px;
-    }
+/*@media screen and (max-width: 768px)*/
+@media screen and (max-width: 870px) {
    
+    .footer__author {
+        font-size: 14px;
+        line-height: 27px;
+        max-width: 282px; 
+    }
+    
 }
-
 
 @media screen and (max-width: 375px) {
     
     .footer__author {
-        max-width: 282px;  /* не 183px как в макете, т.к. длинное имя*/
-        margin-top: 16px;
+        max-width: 282px; 
+    }
+    
+}
 
+@media screen and (max-width: 320px) {
+    
+    .footer__author {
+        max-width: 282px; 
     }
     
 }
