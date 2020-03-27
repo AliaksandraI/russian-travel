@@ -17,6 +17,8 @@
 @media screen and (max-width: 1280px) {
 
     .cover__subtitle {
+        max-width: 382px;
+        min-height: 69px;
         top: 408px; 
     }
 }
@@ -25,6 +27,8 @@
 @media screen and (max-width: 1024px) {
 
     .cover__subtitle {
+        max-width: 413px;
+        min-height: 66px;
         top: 300px; 
     }
 }
@@ -33,16 +37,17 @@
 @media screen  and (max-width: 768px) {
 
     .cover__subtitle {
+        max-width: 382px;
+        min-height: 80px;
         top: 220px; 
     }
     
 }
 
-
-@media screen  and (max-width: 425px) {
+@media screen  and (max-width: 375px) {
 
     .cover__subtitle {
-        max-width: 280px;
+        max-width: 343px;
         min-height: 57px;
         font-size: 14px;
         line-height: 17px;
@@ -54,7 +59,7 @@
 @media screen  and (max-width: 320px) {
 
     .cover__subtitle {
-        max-width: 280px;
+        max-width: 288px;
         min-height: 49px;
         top: 61px; 
     }
