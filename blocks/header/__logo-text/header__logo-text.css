@@ -1,0 +1,24 @@
+
+
+.header__logo-text {
+    font-family: 'Inter','Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    margin: 0;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 8px;
+    padding-left: 12px;
+}
+
+
+@media screen  and (max-width: 375px)  {
+   
+    .header__logo-text {
+        font-size: 19px;
+        padding-bottom: 5px;
+        padding-left: 12px;
+    }
+
+}
