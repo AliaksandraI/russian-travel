@@ -42,6 +42,24 @@
 
 }
 
+/*intermediate point*/
+@media screen and (max-width: 1200px) {
+   
+    .video__container {
+        max-width: 1104px;
+        margin: 72px auto 0;
+    }
+}
+
+/*intermediate point*/
+@media screen and (max-width: 1120px) {
+   
+    .video__container {
+        max-width: 1024px;
+    }
+}
+
+
 @media screen  and (max-width: 1024px) {
     
     .video__container {
@@ -54,12 +72,29 @@
      }
 }
 
+/*intermediate point*/
+@media screen and (max-width: 950px) {
+   
+    .video__container {
+        max-width: 854px;
+    }
+}
+
+/*intermediate point*/
+@media screen and (max-width: 870px) {
+   
+    .video__container {
+        max-width: 744px;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
    
     .video__container {
         max-width: 720px;
         min-height: 200px;
-        margin: 56px 0 0;
+        margin: 56px auto 0;
         gap: 16px;
     }
 
@@ -70,6 +105,31 @@
 
 }
 
+/*intermediate point*/
+@media screen and (max-width: 740px) {
+   
+    .video__container {
+        max-width: 692px;
+    }
+}
+
+/*intermediate point*/
+@media screen and (max-width: 700px) {
+   
+    .video__container {
+        max-width: 652px;
+    }
+}
+
+/*intermediate point*/
+@media screen and (max-width: 660px) {
+   
+    .video__container {
+        max-width: 612px;
+    }
+}
+
+/*intermediate point*/
 @media screen and (max-width: 630px) {
 
     .video__container {
