@@ -3,3 +3,9 @@
     height: 100%;
     position: absolute;
 }
+
+.cover:hover .cover__image-container {
+    opacity: 0.3;
+    transition: opacity 0.3s;
+    background: #2A2C2F;
+}

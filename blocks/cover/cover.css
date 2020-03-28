@@ -7,15 +7,10 @@
     max-width: 1184px;
     min-height: 594px;
     margin: 0 auto;
-    opacity: 0.8;
     background-origin: border-box;
     position: relative;
 }
 
-.cover:hover {
-    opacity: 0.6;
-    transition: opacity .2s linear 0.5s;
-}
 
 @media screen and (max-width: 1280px) {
 
@@ -44,6 +39,44 @@
 
 }
 
+/*intermediate points start*/
+
+@media screen and (max-width: 687px) {
+
+    .cover {
+        min-height: 425px;
+    }
+
+}
+
+
+@media screen and (max-width: 580px) {
+
+    .cover {
+        min-height: 375px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .cover {
+        min-height: 325px;
+    }
+
+}
+
+@media screen and (max-width: 445px) {
+
+    .cover {
+        min-height: 272px;
+    }
+
+}
+
+/*intermediate points end*/
+
+
 @media screen and (max-width: 375px) {
 
     .cover {
@@ -52,6 +85,19 @@
     }
 
 }
+
+
+/*intermediate points start*/
+
+@media screen and (max-width: 360px) {
+
+    .cover {
+        min-height: 240px;
+    }
+
+}
+
+/*intermediate points end*/
 
 @media screen and (max-width: 320px) {
 

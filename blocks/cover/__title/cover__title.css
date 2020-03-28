@@ -14,7 +14,6 @@
     color: #FFFDFD;
 }
 
-
 @media screen and (max-width: 1280px) {
 
     .cover__title {
@@ -34,6 +33,7 @@
     }
     
 }
+
 @media screen  and (max-width: 768px) {
 
     .cover__title {
@@ -44,19 +44,32 @@
     
 }
 
-@media screen  and (max-width: 500px) {
+/*intermediate points start*/
+
+@media screen and (max-width: 687px) {
 
     .cover__title {
-        max-width: 343px;
-        min-height: 80px;
-        font-size: 55px;
-        line-height: 58px;
-        top: 165px;
+        max-width: 687px;
+        font-size: 60px;
+        line-height: 70px;
+        top: 160px;
     }
-    
+
 }
 
-@media screen  and (max-width: 375px) {
+
+@media screen and (max-width: 580px) {
+    .cover__title {
+        max-width: 580px;
+        font-size: 56px;
+        line-height: 60px;
+        top: 140px;
+    }
+
+}
+
+
+@media screen  and (max-width: 500px) {
 
     .cover__title {
         max-width: 343px;
@@ -68,10 +81,24 @@
     
 }
 
+
+@media screen and (max-width: 360px) {
+
+    .cover__title {
+        max-width: 250px;
+        min-height: 65px;
+        top: 60px;
+    }
+
+}
+
+/*intermediate points end*/
+
+
 @media screen  and (max-width: 320px) {
     
     .cover__title {
-        max-width: 288px;
+        max-width: 245px;
         min-height: 72px;
         top: 64px;
     }
