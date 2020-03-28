@@ -24,6 +24,16 @@
     .video {
         max-width: 720px;
         min-height: 442px;
+        margin:102px auto 0;
+    }
+
+}
+
+@media screen and (max-width: 730px) {
+
+    .video {
+        margin:102px 24px 0;
+        
     }
 
 }
@@ -36,6 +46,12 @@
         margin: 40px auto 0;
     }
 
+}
+
+@media screen and (max-width: 374px) {
+    .video {
+        margin: 40px 16px 0;
+    }
 }
 
 @media screen and (max-width: 320px) {

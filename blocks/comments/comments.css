@@ -22,9 +22,9 @@
         min-height: 650px;
     }
 }
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1023px) {
     .comments {
-        max-width: 760px;
+        max-width: 720px;
     } 
 }
 
@@ -37,6 +37,21 @@
     
 }
 
+@media screen and (max-width: 680px) {
+
+    .comments {
+        max-width: 500px;
+    } 
+    
+}
+
+@media screen and (max-width: 530px) {
+
+    .comments {
+        max-width: 345px;
+    } 
+    
+}
 
 @media screen and (max-width: 375px) {
 
@@ -44,6 +59,13 @@
         max-width: 343px;
         min-height: 1089px;
         margin:64px auto 48px;
+    } 
+   
+}
+@media screen and (max-width: 374px) {
+
+    .comments {
+        margin:64px 16px 48px;
     } 
    
 }
