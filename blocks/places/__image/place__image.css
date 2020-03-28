@@ -24,7 +24,7 @@
 
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 730px) {
 
     .place__image{
         max-width: 375px;
@@ -32,7 +32,6 @@
     }
   
 }
-
 
 @media screen and (max-width: 374px) {
    
