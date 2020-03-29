@@ -9,29 +9,7 @@
     gap: 18px;
 }
 
-.video__container-item {
-   max-width: 583px;
-   display: flex;
-   flex-direction: column;
-   padding-left: 30px;
 
-}
-
-.video__container-kamchatka {
-    background-image: url(../../../images/video_kamchatka.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-origin: border-box;
-    position: relative;
-}
-
-.video__container-observatorya {
-    background-image: url(../../../images/video_observatorya.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-origin: border-box;
-    position: relative;
-}
 
 
 @media screen and (max-width: 1280px) {
@@ -64,32 +42,12 @@
     
     .video__container {
         max-width: 928px;
-        min-height: 228px;
-    }
-
-    .video__container-item {
-        max-width: 456px;
-     }
-}
-
-/*intermediate point*/
-@media screen and (max-width: 950px) {
-   
-    .video__container {
-        max-width: 854px;
-    }
-}
-
-/*intermediate point*/
-@media screen and (max-width: 870px) {
-   
-    .video__container {
-        max-width: 744px;
+        min-height: 288px;
     }
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 951px) {
    
     .video__container {
         max-width: 720px;
@@ -98,80 +56,30 @@
         gap: 16px;
     }
 
-    .video__container-item {
-        max-width: 456px;
-        min-height: 200px;
+     .video__container-item:nth-of-type(2) .video__picture-icon {
+        margin: 25px 0 17px;
+
      }
 
 }
 
-/*intermediate point*/
-@media screen and (max-width: 740px) {
-   
-    .video__container {
-        max-width: 692px;
-    }
-}
-
-/*intermediate point*/
-@media screen and (max-width: 700px) {
-   
-    .video__container {
-        max-width: 652px;
-    }
-}
-
-/*intermediate point*/
-@media screen and (max-width: 660px) {
-   
-    .video__container {
-        max-width: 612px;
-    }
-}
-
-/*intermediate point*/
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 767px) {
 
     .video__container {
-        max-width: 348px;
-        min-height: 408px;
+        max-width: 343px;
+        min-height: 200px;
         margin: 24px auto 0;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 8px;
     }
 
-    .video__container-item {
-        max-width: 348px;
-     }
-}
-
-@media screen and (max-width: 375px) {
-
-    .video__container {
-        max-width: 343px;
-        min-height: 408px;
-        margin: 24px 0 0;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        gap: 8px;
-    }
-
-    .video__container-item {
-        max-width: 343px;
-     }
-
 }
 
 @media screen and (max-width: 320px) {
     .video__container {
         max-width: 282px;
-        min-height: 392px;
-    }
-
-    .video__container-item {
-        max-width: 288px;
         min-height: 192px;
-     }
+    }
 
 }

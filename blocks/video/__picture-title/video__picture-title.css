@@ -1,0 +1,33 @@
+
+.video__picture-title {
+    max-width: 322px;
+    font-family: 'Inter','Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0 0 18px;
+    position: relative;
+    z-index: 1;
+}
+
+@media screen  and (max-width: 951px) {
+
+    .video__picture-title {
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0 0 12px;
+    }
+
+}
+
+
+
+@media screen  and (max-width: 375px) {
+
+    .video__picture-title {
+        font-size: 24px;
+        line-height: 26px;
+        margin: 0 0 2px;
+    }
+}

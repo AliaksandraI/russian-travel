@@ -1,0 +1,44 @@
+
+.video__picture-subtitle {
+    font-family: 'Inter','Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 13px;
+    margin: 0 0 30px;
+    z-index: 1;
+
+}
+
+@media screen  and (max-width: 1024px) {
+
+    .video__picture-subtitle {
+        margin: 0 0 35px;
+    }
+}
+
+@media screen  and (max-width: 951px) {
+
+    .video__picture-subtitle {
+        margin: 0 0 24px;
+        line-height: 12px;
+    }
+
+}
+
+
+
+@media screen  and (max-width: 375px) {
+
+    video__picture-subtitle {
+        line-height: 12px;
+    }
+}
+
+
+@media screen  and (max-width: 320px) {
+    .video__picture-subtitle {
+        margin: 0 0 16px;
+    }
+
+}

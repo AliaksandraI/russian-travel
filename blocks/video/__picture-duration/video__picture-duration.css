@@ -1,0 +1,19 @@
+.video__picture-duration {
+    font-family: 'Inter','Arial', 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.3em;
+    margin:0 0 12px;
+    z-index: 1;
+}
+
+
+
+@media screen  and (max-width: 951px) {
+
+    .video__picture-duration {
+        margin:0 0 8px;
+    }
+
+}

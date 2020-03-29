@@ -1,0 +1,52 @@
+
+.video__picture-background {
+    object-fit: cover;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 0;
+    width: 100%;
+    border-radius: 5px;
+    min-height: 323px;
+}
+
+.video__container-item:hover .video__picture-background {
+    
+    opacity: 0.5;
+    transition: opacity 0.3s;
+    background-color: black;
+    
+}
+
+
+@media screen  and (max-width: 1024px) {
+
+     .video__picture-background {
+        min-height: 288px;
+     }
+}
+
+
+@media screen and (max-width: 951px) {
+
+     .video__picture-background {
+        min-height: 200px;
+     }
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+     .video__picture-background {
+        min-height: 200px;
+     }
+}
+
+@media screen and (max-width: 320px) {
+
+     .video__picture-background {
+        min-height: 192px;
+     }
+
+}

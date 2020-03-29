@@ -1,0 +1,37 @@
+.video__picture-icon {
+    max-width: 41px;
+    margin: 30px 0 94px;
+    z-index: 1;
+}
+
+
+@media screen  and (max-width: 1024px) {
+    .video__picture-icon {
+        margin: 30px 0 54px;
+    }
+}
+
+@media screen  and (max-width: 951px) {
+    .video__picture-icon {
+        max-width: 42px;
+        margin: 25px 0 36px;
+
+    }
+}
+
+
+
+@media screen  and (max-width: 375px) {
+    .video__picture-icon {
+        max-width: 41px;
+        margin: 24px 0 41px;
+
+    }
+}
+
+
+@media screen  and (max-width: 320px) {
+    .video__picture-icon {
+        margin: 16px 0 49px;
+    }
+}
