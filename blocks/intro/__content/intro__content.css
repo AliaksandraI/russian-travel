@@ -50,7 +50,7 @@
     .intro__content {
         max-width: 343px;
         min-height: 693px;
-
+        margin: 0 0;
     }
 
     .intro__content-row {
